@@ -15,7 +15,7 @@
 #![doc(test(no_crate_inject, attr(deny(rust_2018_idioms))))]
 #![cfg_attr(docsrs, feature(doc_cfg))]
 
-pub(crate) mod proto {
+pub mod proto {
     #![allow(unreachable_pub)]
     tonic::include_proto!("grpc.reflection.v1alpha");
 
