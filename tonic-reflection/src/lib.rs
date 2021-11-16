@@ -16,7 +16,6 @@
 #![cfg_attr(docsrs, feature(doc_cfg))]
 
 pub mod proto {
-    #![allow(unreachable_pub)]
     tonic::include_proto!("grpc.reflection.v1alpha");
 
     pub(crate) const FILE_DESCRIPTOR_SET: &[u8] =
