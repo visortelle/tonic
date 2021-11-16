@@ -89,10 +89,10 @@
 
 pub use config::Config;
 
-mod call;
-mod config;
-mod cors;
-mod service;
+pub mod call;
+pub mod config;
+pub mod cors;
+pub mod service;
 
 use crate::service::GrpcWeb;
 use std::future::Future;
